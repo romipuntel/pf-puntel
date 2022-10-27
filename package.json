@@ -1,16 +1,26 @@
 {
   "name": "pf-puntel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Contents:Autoconocimiento❤️ Health Coach🧘🏼‍♀️ Alimentacion Consciengit branch -m master mainte 🥗 Hambre Emocional🍰 Coaching Holistico 🪷",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass ./scss/style.scss -o css",
-    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass ./scss/style.scss -o css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romipuntel/rominaPuntel.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/romipuntel/rominaPuntel/issues"
+  },
+  "homepage": "https://github.com/romipuntel/rominaPuntel#readme"
 }

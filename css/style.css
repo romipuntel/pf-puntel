@@ -231,7 +231,8 @@ footer {
     margin: 0 auto; }
   .explicacionHealth p {
     margin: 0 auto;
-    text-align: justify; }
+    text-align: justify;
+    max-width: 5em; }
   .articuloPrincipal, .articuloQuienSoy, .articuloHealth {
     display: flex;
     flex-direction: column;

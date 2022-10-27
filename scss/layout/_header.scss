@@ -22,6 +22,11 @@ header {
         justify-content: flex-end;
     }
 
+    .navbar-toggler {
+        position: inherit;
+        margin-left: 1em;
+    }
+
     nav a img {
         width: 15em;
         margin-top: 0;

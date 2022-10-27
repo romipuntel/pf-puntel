@@ -7,11 +7,6 @@
         width: 3em;
     }
 
-    .navbar-toggler {
-        position: inherit;
-        margin-top: 2em;
-    }
-
     .carousel-inner img {
         margin: 0 auto;
     }
@@ -85,7 +80,7 @@
     .imagenServicios {
         @include flex(column, wrap);
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 500px;
     }
 
     .articuloPrincipal,
@@ -105,6 +100,7 @@
 
     form {
         max-width: 50em;
+        margin: 2em 1em 1em 2em;
     }
 
     .imagenServicios {

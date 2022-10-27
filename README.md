@@ -1,7 +1,8 @@
 # rominaPuntel
+Utilice:html, css, sass, bootsap
 Contents:
 Autoconocimiento❤️
 Health Coach🧘🏼‍♀️
-Alimentacion Consciengit branch -m master mainte 🥗
+Alimentacion Consciengite 🥗
 Hambre Emocional🍰
 Coaching Holistico 🪷

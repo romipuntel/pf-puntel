@@ -1,0 +1,43 @@
+.articuloHealth {
+    @extend .articuloPrincipal;
+
+    div {
+        margin: 2em;
+    }
+}
+
+.flexContainer {
+    @include flex(row, wrap);
+    width: 40em;
+    justify-content: center;
+    text-align: left;
+    align-items: right;
+    margin: 0 auto;
+    font-family: $fuente-principal;
+
+    h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .articulo {
+        font-family: $fuente-principal;
+        text-align: justify;
+        background: rgb(242, 235, 238);
+        background: linear-gradient(90deg, rgba(242, 235, 238, 1) 0%, rgba(246, 224, 233, 1) 14%, rgba(230, 213, 228, 1) 97%);
+        width: 50em;
+        margin: 2em 0.5em;
+        padding: 0.5em 1em;
+        border: rgb(242, 235, 238);
+        box-shadow: 0.3em 0.3em 0.5em 0.3em rgba(230, 213, 228, 1);
+
+        h2 {
+            font-size: 1.3em;
+        }
+
+        .textoHealthCoach {
+            margin-right: 2em;
+        }
+
+    }
+}

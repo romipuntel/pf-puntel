@@ -1,0 +1,28 @@
+#descripcion {
+  font-family: $fuente-secundaria;
+  font-style: italic;
+  color: #ceb9c3;
+  font-weight: height;
+  margin-left: 2em;
+}
+
+.articuloQuienSoy {
+  @extend .articuloPrincipal;
+}
+
+.fotosRomi img {
+  @include flex(row, wrap);
+  max-width: 15em;
+  margin-bottom: 3em;
+  margin-left: 2em;
+}
+
+.explicacionHealth p {
+  margin: 2em 6em 1.5em 6em;
+  font-size: 20px;
+}
+
+.fraseQuienSoy {
+  font-size: 1.5em;
+  font-family: $fuente-secundaria;
+}

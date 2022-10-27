@@ -1,0 +1,48 @@
+header {
+    position: relative;
+    width: 100%;
+    font-family: $fuente-secundaria;
+    background-color: $background-header;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: $background-header;
+    }
+
+    .navbar {
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    #navbarNavAltMarkup {
+        flex-basis: 100%;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    nav a img {
+        width: 15em;
+        margin-top: 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+    }
+}
+
+.navbar-nav {
+    color: $font-color;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    margin-left: 1em;
+}
+
+.container-fluid {
+    background-color: $background-header;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}

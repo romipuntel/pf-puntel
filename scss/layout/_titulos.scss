@@ -1,0 +1,33 @@
+.tituloPrincipal {
+  font-weight: 30em;
+  color: $font-color;
+  font-size: 3em;
+  font-family: $fuente-secundaria;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.tituloServicio {
+  margin-top: 1.4em;
+  font-size: 1.7em;
+  margin-left: 1.2em;
+  font-family: $fuente-secundaria;
+}
+
+.tituloServicio1 {
+  @extend.tituloServicio
+}
+
+.titulo {
+  font-size: 1.8em;
+  margin-top: 3em;
+  text-align: center;
+  color: #66505a;
+  font-family: $fuente-secundaria;
+}
+
+#descripcion {
+  margin-top: 1em;
+  text-align: center;
+  
+}

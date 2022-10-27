@@ -1,0 +1,37 @@
+.articuloPrincipal {
+    @include flex(row, nowrap);
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: $fuente-principal;
+    background-color: $background-principal;
+
+    .textoInicial {
+        font-size: 18px;
+        margin: 1em 3em 1em 2em;
+    }
+
+    .container img {
+        max-width: 60%;
+    }
+}
+
+.preguntasIniciales {
+    text-align: center;
+    font-family: $fuente-principal;
+
+    ul {
+        font-size: 16px;
+        list-style: circle;
+        text-align: left;
+        display: inline-block;
+        margin-top: 1em;
+    }
+}
+
+.frasePrincipal {
+    font-size: 26px;
+    color: #66505a;
+    text-align: center;
+}

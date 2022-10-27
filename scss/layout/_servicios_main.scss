@@ -1,0 +1,15 @@
+.textoHealthCoach p {
+    margin-top: 1em;
+    font-family: $fuente-principal;
+}
+
+.textoCoaching p {
+    @extend.textoHealthCoach;
+}
+
+.imagenComida,
+.imagenEscritorio {
+    max-width: 80%;
+    margin: 0 5em auto;
+    grid-column: 3/3;
+}

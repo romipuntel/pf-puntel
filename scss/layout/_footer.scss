@@ -1,0 +1,33 @@
+footer {
+    margin-top: 4em;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: $background-header;
+    font-size: $fuente-secundaria;
+
+    #rrss {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100px;
+        margin: 2em auto 0;
+
+        svg {
+            color: #74616a;
+            transition-duration: all 2s;
+            transition-property: transform;
+            transition-timing-function: ease;
+            transition-delay: 1s;
+
+            .hover {
+                transform: scale(1.2, 1.2);
+                color: $font-color;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        margin-bottom: 0;
+    }
+}

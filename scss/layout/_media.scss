@@ -1,0 +1,141 @@
+@media screen and (max-width: 567px) {
+    header nav {
+        width: 100%;
+    }
+
+    nav a img {
+        width: 3em;
+    }
+
+    .navbar-toggler {
+        position:relative;
+        margin-top: 2em;
+    }
+
+    .carousel-inner img {
+        margin: 0 auto;
+    }
+
+    .explicacionHealth p {
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .articuloPrincipal {
+        @include flex(column, wrap);
+    }
+
+    .fotosRomi,
+    .imagenServicios img {
+        @include flex(column, wrap);
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .articuloPrincipal p {
+        max-width: 400px;
+    }
+
+    .explicacionHealth p {
+        margin: 0 auto;
+        max-width: 20em;
+    }
+
+    .textoInicial p {
+        text-align: center;
+    }
+
+    #video {
+        max-width: 100%;
+    }
+
+    .flexContainer {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .textoCoaching {
+        max-width: 400px;
+        margin-left: 2em;
+    }
+
+    form div {
+        max-width: 23em;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        nav {
+            width: 100%;
+        }
+
+        .navbar-toggler {
+            margin-top: 0;
+        }
+
+        .navbarNavAltMarkup {
+            margin-left: 0em;
+        }
+    }
+
+    .fotosRomi,
+    .imagenServicios {
+        @include flex(column, wrap);
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+    .articuloPrincipal,
+    .articuloHealth,
+    .quienSoy img {
+        @include flex(column, wrap)
+    }
+
+    .carousel-inner img,
+    .healthCoach {
+        margin: 0 auto;
+    }
+
+    .articulo {
+        max-width: 50em;
+    }
+
+    form {
+        max-width: 50em;
+    }
+
+    .imagenServicios {
+        max-width: 30em;
+        align-items: center;
+    }
+
+    .textoCoaching {
+        max-width: 700px;
+        margin: 2em;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .containerGrid {
+        display: grid;
+        grid-template-columns: 40em 40em;
+        grid-template-rows: 6em 20em 20em;
+        justify-content: space-evenly;
+    }
+
+    .textoCoaching {
+        grid-column: 2/3;
+        margin: 0 auto;
+    }
+
+    .tituloServicio {
+        grid-column: 1/2;
+    }
+
+    .tituloServicio1 {
+        grid-column: 2/2;
+    }
+}

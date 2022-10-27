@@ -32,7 +32,8 @@ header {
     justify-content: flex-end; }
   header .navbar-toggler {
     position: inherit;
-    margin-left: 1em; }
+    margin-left: 1em;
+    margin-top: 2em; }
   header nav a img {
     width: 15em;
     margin-top: 0; }
@@ -231,7 +232,8 @@ footer {
     margin: 0 auto; }
   .explicacionHealth p {
     text-align: justify;
-    max-width: 5em; }
+    margin: 0 auto;
+    margin-left: 0,5em; }
   .articuloPrincipal, .articuloQuienSoy, .articuloHealth {
     display: flex;
     flex-direction: column;

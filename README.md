@@ -1,5 +1,5 @@
 # rominaPuntel
-Utilice:html, css, sass, bootsap
+Utilice:html, css, sass, bootstrap.
 Contents:
 Autoconocimiento❤️
 Health Coach🧘🏼‍♀️

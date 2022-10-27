@@ -233,7 +233,7 @@ footer {
   .explicacionHealth p {
     text-align: justify;
     margin: 0 auto;
-    margin-left: 0,5em; }
+    margin-left: 0, 5em; }
   .articuloPrincipal, .articuloQuienSoy, .articuloHealth {
     display: flex;
     flex-direction: column;
@@ -249,7 +249,7 @@ footer {
     max-width: 400px; }
   .explicacionHealth p {
     margin: 0 auto;
-    max-width: 20em; }
+    max-width: 15em; }
   .textoInicial p {
     text-align: center; }
   #video {
